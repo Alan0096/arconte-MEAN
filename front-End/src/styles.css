@@ -1,11 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
-/*se ve como fortnite*/
-@import url(https://fonts.googleapis.com/css2?family=Staatliches&display=swap);
-
-@import url(https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap);
-
-
+@font-face {
+    font-family: 'capture_it';
+    src: url('./assets/fonts/Capture_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
     box-sizing: border-box;
 }
@@ -15,7 +15,7 @@ html{
 }
 html,
 button{
-    font-family: "Staatliches", "sans-serif";
+    font-family: 'capture_it';
 }
 
 body{
