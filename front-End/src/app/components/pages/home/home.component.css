@@ -8,19 +8,21 @@ ul{
   }
   
   li a{
-    height: 22.5rem;
-    width: 20rem;
-    border: 1px solid whitesmoke;
-    border-radius: 1rem;
+    height: 28.5rem;
+    width: 30rem;
     margin: 0.5rem;
     display: flex;
     flex-direction: column;
+    background-color: white;
     overflow: hidden;
-    color: #e72929;
+    background-color: rgb(24,22,27);
+    color: #c0ad00;
+    font-size: 1.4rem;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   li a:hover{
-    opacity: 0.9;
+    opacity: 0.7;
     cursor: pointer;
   }
   
@@ -35,14 +37,6 @@ ul{
     position: relative;
     height: 7rem;
   }
-  
-  .favorite{
-    position: absolute;
-    top: 0.5rem;
-    right: 1rem;
-    font-size: 1.2rem;
-  }
-  
 
   .product-item-footer{
     display: flex;
@@ -64,20 +58,16 @@ ul{
     padding: 0 0.5rem;
     margin-top: 0.2rem;
   }
-  
-  .cook-time{
-    font-size: 0.9rem;
-    flex: 3;
-    text-align: right;
-  }
-  
+
   .price{
     position: absolute;
     bottom: 0;
     left: 0.9rem;
-    background: white;
     padding: 0.3rem 100% 0 0;
-    color: #414141;
+    color: #ffffff;
     margin-top: 0.7rem;
     font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
   }
+
+  
