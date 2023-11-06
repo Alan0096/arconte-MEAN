@@ -5,7 +5,7 @@ div{
 }
 
 input{
-    border-radius: 10rem 0 0 10rem;
+    border-radius: 0.5rem 0 0 0.5rem;
     border: none;
     height: 2rem;
     width: 10rem;
@@ -27,8 +27,8 @@ div button{
     border: none;
     width: 4rem;
     color: rgb(209,203,205);
-    background-color:rgb(252, 27, 157);;  
-    border-radius: 0 10rem 10rem 0;
+    background-color:rgb(27, 244, 252);;  
+    border-radius: 0 0.5rem 0.5rem 0;
 }
 
 div button:hover{
