@@ -25,9 +25,9 @@ input::placeholder{
 div button{
     margin-top: 0.3rem;
     border: none;
-    width: 4rem;
+    width: 3rem;
     color: rgb(209,203,205);
-    background-color:rgb(27, 244, 252);;  
+    background-color:rgb(237, 252, 27);;  
     border-radius: 0 0.5rem 0.5rem 0;
 }
 
